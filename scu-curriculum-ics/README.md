@@ -1,7 +1,12 @@
 # SCU Curriculum ICS
 自动获取四川大学教务管理系统的课程表信息并生成 `.ics` 日历文件。
 ## Usage
-在 `main.py` 中填写四川大学教务系统用户名及密码信息，即可运行。
+在 `main.py` 中填写本学期第一周周一的日期、四川大学教务系统用户名及密码信息，即可运行。
+```python
+startYear = 2021
+startMonth = 3
+startDay = 1
+```
 ```python
 # 用户名及密码
 username = '' 

@@ -64,7 +64,7 @@ with open('class.json', "r+", encoding='utf-8') as f:
 # 第一周周一日期
 startYear = 2021
 startMonth = 3
-startDay = 8
+startDay = 1
 
 beginDate = datetime.date(startYear, startMonth, startDay)
 
@@ -140,10 +140,10 @@ with open("class.json", 'r', encoding='utf-8') as f:
                 classStartDate = beginDate + delta
                 # 开始时间
                 classStartTime = datetime.datetime.strptime(
-                    startTime[int(classSession)], '%H:%M').time()
+                    startTime[int(classSession) -1], '%H:%M').time()
                 # 结束时间
                 classEndTime = datetime.datetime.strptime(
-                    endTime[int(classSession) + int(classAmount) - 1], '%H:%M').time()
+                    endTime[int(classSession) + int(classAmount) - 2], '%H:%M').time()
                 # 最终开始时间
                 classStartDateTime = datetime.datetime.combine(
                     classStartDate, classStartTime)
