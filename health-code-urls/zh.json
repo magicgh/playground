@@ -1,0 +1,8 @@
+{
+  "默认": "alipays://platformapi/startapp?appId=2019011763060066",
+  "北京": "alipays://platformapi/startapp?appId=2021001135679870",
+  "上海": "alipays://platformapi/startapp?appId=2019072665939857",
+  "四川": "alipays://platformapi/startapp?appId=2021002116662889",
+  "重庆": "alipays://platformapi/startapp?appId=2021001130674650",
+  "福建": "alipays://platformapi/startapp?appId=2021002125635929"
+}
