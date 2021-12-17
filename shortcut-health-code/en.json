@@ -1,5 +1,5 @@
 {
-  'National': 'alipays://platformapi/startapp?appId=2019011763060066'
+  'National': 'alipays://platformapi/startapp?appId=2019011763060066',
   'Beijing': 'alipays://platformapi/startapp?appId=2021001135679870',
   'Shanghai': 'alipays://platformapi/startapp?appId=2019072665939857',
   'Sichuan': 'alipays://platformapi/startapp?appId=2021002116662889',
