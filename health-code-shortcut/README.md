@@ -13,7 +13,7 @@ Display local health QR code (Alipay Mini Program) according to your current loc
 *：未经测试/Haven't tested yet
 
 ## Usage
-* 系统语言为简体中文<sup>*</sup>：[健康码 - 捷径](https://www.icloud.com/shortcuts/9aba9ddde98440d89e95970911324a2c)
+* 系统语言为简体中文<sup>*</sup>：[健康码 - 捷径](https://www.icloud.com/shortcuts/cd915a9cb0e24c1e9b6a23f2ea93f138)
 
 * If the language of your device is English: [Health Code - Shortcuts](https://www.icloud.com/shortcuts/9e740e724bac4554a4381ba8a464b8d9)
 
