@@ -1,8 +1,8 @@
 {
   "Default": "alipays://platformapi/startapp?appId=2019011763060066&page=pages%2Fhealth-code%2Fhealth-code",
-  "北京": "alipays://platformapi/startapp?appId=2021001135679870&page=pages%2Fhome%2Findex",
-  "上海": "alipays://platformapi/startapp?appId=2019072665939857",
-  "四川": "alipays://platformapi/startapp?appId=2021002116662889&page=pages%2Findex%2Findex",
-  "重庆": "alipays://platformapi/startapp?appId=2021001130674650&page=pages%2Findex%2Findex",
-  "福建": "alipays://platformapi/startapp?appId=2021002125635929&page=pages%2Findex%2Findex"
+  "北京市": "alipays://platformapi/startapp?appId=2021001135679870&page=pages%2Fhome%2Findex",
+  "上海市": "alipays://platformapi/startapp?appId=2019072665939857",
+  "四川省": "alipays://platformapi/startapp?appId=2021002116662889&page=pages%2Findex%2Findex",
+  "重庆市": "alipays://platformapi/startapp?appId=2021001130674650&page=pages%2Findex%2Findex",
+  "福建省": "alipays://platformapi/startapp?appId=2021002125635929&page=pages%2Findex%2Findex"
 }
