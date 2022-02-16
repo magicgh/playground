@@ -2,6 +2,7 @@ import requests
 import datetime
 import hashlib
 import json
+import re
 from fake_useragent import UserAgent
 from captchafill import get_captcha
 
@@ -39,7 +40,11 @@ post_data = {
 
 # 课表数据获取
 login_res = session.post(login_url, data=post_data, headers=headers)
-table_url = url + 'student/courseSelect/thisSemesterCurriculum/ajaxStudentSchedule/curr/callback'
+index_url = 'http://zhjw.scu.edu.cn/student/courseSelect/thisSemesterCurriculum/index'
+index_html = session.get(index_url, headers=headers).text
+re_template = '/student/courseSelect/thisSemesterCurriculum/(.*)/ajaxStudentSchedule/curr/callback'
+m = re.search(re_template, index_html)
+table_url = url + f'student/courseSelect/thisSemesterCurriculum/{m.group(1)}/ajaxStudentSchedule/curr/callback'
 tablePage = session.get(table_url).text
 table_byte = bytes(tablePage, 'utf-8')
 
@@ -62,9 +67,9 @@ with open('class.json', "r+", encoding='utf-8') as f:
 
 # 写入日历
 # 第一周周一日期
-startYear = 2021
-startMonth = 3
-startDay = 1
+startYear = 2022
+startMonth = 2
+startDay = 21
 
 beginDate = datetime.date(startYear, startMonth, startDay)
 
