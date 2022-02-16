@@ -42,7 +42,7 @@ Display local health QR code (Alipay Mini Program) according to your current loc
 
 * If the language of your device is not Simplified Chinese<sup>*</sup>: [Health Code - Shortcuts](https://www.icloud.com/shortcuts/95ae34137f9047959e260cf00ffcdb50)
 
-*：Translation services are provided by Microsoft.
+  \* Translation services are provided by Microsoft.
 
 ## Pull Requests
 Edit `conf.json`.
