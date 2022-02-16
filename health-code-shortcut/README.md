@@ -38,9 +38,11 @@ Display local health QR code (Alipay Mini Program) according to your current loc
 * 香港 Hongkong
 
 ## Usage
-* 系统语言为简体中文<sup>*</sup>：[健康码 - 快捷指令](https://www.icloud.com/shortcuts/b7b13158e0e6451c82e7d2554679dc0e)
+* 系统语言为简体中文：[健康码 - 快捷指令](https://www.icloud.com/shortcuts/b7b13158e0e6451c82e7d2554679dc0e)
 
-* If the language of your device is not Simplified Chinese: [Health Code - Shortcuts](https://www.icloud.com/shortcuts/95ae34137f9047959e260cf00ffcdb50)
+* If the language of your device is not Simplified Chinese<sup>*</sup>: [Health Code - Shortcuts](https://www.icloud.com/shortcuts/95ae34137f9047959e260cf00ffcdb50)
+
+*：Translation services are provided by Microsoft.
 
 ## Pull Requests
 Edit `conf.json`.
