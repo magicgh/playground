@@ -1,0 +1,16 @@
+name=Emby Premiere
+desc=Emby Premiere Unlock
+
+http:
+  mitm:
+    - "mb3admin.com"
+  script:
+    - match: https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice
+      name: EmbyPremiere
+      type: response
+      require-body: true
+      timeout: 10
+
+script-providers:
+  EmbyPremiere:
+    url: https://raw.githubusercontent.com/magicgh/toy-projects/main/stash-snippets/scripts/EmbyPremiere.js
