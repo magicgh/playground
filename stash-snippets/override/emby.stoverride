@@ -1,5 +1,5 @@
-name=Emby Premiere
-desc=Emby Premiere Unlock
+name: Emby Premiere
+desc: Emby Premiere Unlock
 
 http:
   mitm:
@@ -13,4 +13,4 @@ http:
 
 script-providers:
   EmbyPremiere:
-    url: https://raw.githubusercontent.com/magicgh/toy-projects/main/stash-snippets/scripts/EmbyPremiere.js
+    url: https://raw.githubusercontent.com/magicgh/toy-projects/main/snippets/stash/scripts/EmbyPremiere.js
